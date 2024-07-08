@@ -1,0 +1,7 @@
+# config/packages/verify_email.yaml
+symfonycasts_verify_email:
+    # redirect_route_name: 'app_home'
+      lifetime: 3600    # Remplacez par la route de redirection après confirmation
+    # Optionnel: Nom du paramètre GET de l'URL de redirection
+    # success_redirect_url_key: 'success'
+
